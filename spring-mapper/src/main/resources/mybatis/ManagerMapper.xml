@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ch.mapper.TaskMapper">
+
+    <resultMap id="quartzJobEntityMap" type="com.ch.entity.quartz.QuartzJobEntity">
+        <result	column="id" property="id"></result>
+        <result column="task_group" property="taskGroup"></result>
+        <result column="task_name" property="taskName"></result>
+        <result column="cron" property="cron"></result>
+        <result column="status" property="status"></result>
+        <result column="gmt_create" property="gmt_create"></result>
+        <result column="gmt_modify" property="gmt_modify"></result>
+    </resultMap>
+
+    <select id="selectTaskByStaus" parameterType="java.lang.String" resultMap="quartzJobEntityMap">
+            select * from task_tb where status = #{status}
+    </select>
+
+
+    <insert id="insertTask" parameterType="com.ch.entity.quartz.QuartzJobEntity">
+        insert into task_tb (task_group,task_name,cron,status,gmt_create,gmt_modify)
+          values (#{jobVO.taskGroup} ,#{jobVO.taskName} ,#{jobVO.cron},#{jobVO.status},#{jobVO.gmt_create},#{jobVO.gmt_modify})
+    </insert>
+
+    <select id="selectTaskByNameAndGroup" parameterType="hashMap" resultMap="quartzJobEntityMap">
+        select * from task_tb where task_name = #{name} and task_group = #{group}
+    </select>
+
+    <select id="selectAllJob" resultMap="quartzJobEntityMap">
+          select * from task_tb
+    </select>
+
+    <update id="updateTaskCron" parameterType="com.ch.entity.quartz.QuartzJobEntity">
+          update task_tb set cron = #{jobVO.cron} where task_name = #{jobVO.taskName} and task_group = #{jobVO.taskGroup}
+    </update>
+
+    <update id="updateTaskStatus" parameterType="com.ch.entity.quartz.QuartzJobEntity">
+          update task_tb set status = #{jobVO.status} where task_name = #{jobVO.taskName}  and task_group = #{jobVO.taskGroup}
+    </update>
+
+    <update id="updateTaskInfo" parameterType="com.ch.entity.quartz.QuartzJobEntity" >
+
+    </update>
+
+    <delete id="deleteTask" parameterType="map">
+          delete from task_tb where task_name = #{name} and task_group = #{group}
+    </delete>
+
+</mapper>

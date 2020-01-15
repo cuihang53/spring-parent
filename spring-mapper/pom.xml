@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--继承父类-->
+    <parent>
+        <groupId>com.ch</groupId>
+        <artifactId>spring-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <!--基本信息-->
+    <groupId>com.ch</groupId>
+    <artifactId>spring-mapper</artifactId>
+    <version>${project-componet-mapper-version}</version>
+    <name>spring-mapper</name>
+    <description>Demo project for Spring Boot</description>
+
+    <dependencies>
+        <!--只要parent的pom的dependencyManagement中存在該插件,子pom中只需要聲明依賴 -->
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-entity</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

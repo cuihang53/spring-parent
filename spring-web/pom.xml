@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--继承父类-->
+    <parent>
+        <groupId>com.ch</groupId>
+        <artifactId>spring-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <!--基本信息-->
+    <groupId>com.ch</groupId>
+    <artifactId>spring-web</artifactId>
+    <version>${project-componet-web-version}</version>
+    <name>spring-web</name>
+    <description>spring-web</description>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!--項目自定義依賴 start-->
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-entity</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-service</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-quartz</artifactId>
+        </dependency>
+        <!--項目自定義依賴 end-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <!--
+                1.我们引入了spring-boot-starter，其中包含了spring-boot-starter-logging，
+                该依赖内容就是Spring Boot默认的日志框架Logback，所以我们在引入log4j之前，
+                需要先排除该包的依赖，再引入log4j的依赖
+                2.Spring Boot 只有1.3.x和1.3.x以下版本才支持log4j的日志配置，1.3.x以上版本只支持log4j2。
+            -->
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!--REDIS  starter-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <scope>compile</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jdbc</artifactId>
+        </dependency>
+
+        <!--支持JDBC-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+    </dependencies>
+
+
+    <!--多模块打包：只需在启动类所在模块的POM文件：指定打包插件 -->
+    <build>
+        <plugins>
+            <plugin>
+                <!--该插件主要用途：构建可执行的JAR -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                  <configuration>
+                    <mainClass>com.ch.web.SpringWebApplication</mainClass>
+                </configuration>
+               <executions>
+                    <execution>
+                        <!--执行期间,不写这个可能会引起导入mysql连接出错-->
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

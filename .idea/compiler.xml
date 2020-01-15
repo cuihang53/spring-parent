@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-quartz" />
+        <module name="spring-entity" />
+        <module name="spring-web" />
+        <module name="spring-common" />
+        <module name="spring-service" />
+        <module name="spring-mapper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-common" target="1.8" />
+      <module name="spring-entity" target="1.8" />
+      <module name="spring-mapper" target="1.8" />
+      <module name="spring-parent" target="1.8" />
+      <module name="spring-quartz" target="1.8" />
+      <module name="spring-service" target="1.8" />
+      <module name="spring-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-common" options="-parameters" />
+      <module name="spring-entity" options="-parameters" />
+      <module name="spring-mapper" options="-parameters" />
+      <module name="spring-parent" options="-parameters" />
+      <module name="spring-quartz" options="-parameters" />
+      <module name="spring-service" options="-parameters" />
+      <module name="spring-web" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- 继承说明：这里继承SpringBoot提供的父工程 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <!-- 项目说明：这里作为聚合工程的父工程 -->
+    <description>Demo project for Spring Boot</description>
+    <modelVersion>4.0.0</modelVersion>
+    <name>spring-parent</name>
+    <packaging>pom</packaging>
+
+
+    <!-- 项目说明：这里作为聚合工程的父工程 -->
+    <groupId>com.ch</groupId>
+    <artifactId>spring-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+
+    <!-- java jdk 版本-->
+    <properties>
+        <java.version>1.8</java.version>
+        <mysql-connector-java-version>5.1.42</mysql-connector-java-version>
+        <project-componet-version>0.0.1-SNAPSHOT</project-componet-version>
+        <project-componet-web-version>0.0.1-SNAPSHOT</project-componet-web-version>
+        <project-componet-service-version>0.0.1-SNAPSHOT</project-componet-service-version>
+        <project-componet-entity-version>0.0.1-SNAPSHOT</project-componet-entity-version>
+        <project-componet-common-version>0.0.1-SNAPSHOT</project-componet-common-version>
+        <project-componet-mapper-version>0.0.1-SNAPSHOT</project-componet-mapper-version>
+        <project-componet-quartz-version>0.0.1-SNAPSHOT</project-componet-quartz-version>
+    </properties>
+
+    <!--声明多个子模板-->
+    <modules>
+        <module>spring-common</module>
+        <module>spring-entity</module>
+        <module>spring-mapper</module>
+        <module>spring-service</module>
+        <module>spring-web</module>
+        <module>spring-quartz</module>
+    </modules>
+
+    <!--只要parent的pom的dependencyManagement中存在的依賴,子pom中只需要聲明依賴 -->
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-common</artifactId>
+            <version>${project-componet-common-version}</version>
+
+        </dependency>
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-entity</artifactId>
+            <version>${project-componet-entity-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-mapper</artifactId>
+            <version>${project-componet-mapper-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-service</artifactId>
+            <version>${project-componet-service-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${project-componet-web-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ch</groupId>
+            <artifactId>spring-quartz</artifactId>
+            <version>${project-componet-quartz-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter-test</artifactId>
+            <version>1.3.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>2.0.2</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <!--啓動包 slf4j錯 加上不報錯-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.7.5</version>
+        </dependency>
+
+
+        <!--定時任務必不可少-->
+        <dependency>
+           <groupId>org.springframework</groupId>
+           <artifactId>spring-context-support</artifactId>
+           <version>4.2.6.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+    </dependencies>
+</dependencyManagement>
+    <!--
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+    -->
+</project>

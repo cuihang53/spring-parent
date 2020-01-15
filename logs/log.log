@@ -1,0 +1,358 @@
+2019-12-20 14:24:54  [ background-preinit:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-12-20 14:24:54  [ background-preinit:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-12-20 14:24:54  [ background-preinit:3 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2019-12-20 14:24:54  [ background-preinit:3 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2019-12-20 14:24:54  [ background-preinit:19 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:24:54  [ background-preinit:19 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:24:54  [ background-preinit:27 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-12-20 14:24:54  [ background-preinit:27 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-12-20 14:24:54  [ background-preinit:28 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+2019-12-20 14:24:54  [ background-preinit:28 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+2019-12-20 14:24:54  [ background-preinit:29 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-12-20 14:24:54  [ background-preinit:29 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-12-20 14:24:54  [ background-preinit:30 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+2019-12-20 14:24:54  [ background-preinit:30 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+2019-12-20 14:24:54  [ background-preinit:265 ] - [ DEBUG ]  Loaded expression factory via original TCCL
+2019-12-20 14:24:54  [ background-preinit:265 ] - [ DEBUG ]  Loaded expression factory via original TCCL
+2019-12-20 14:24:54  [ background-preinit:276 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-20 14:24:54  [ background-preinit:276 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-20 14:24:54  [ background-preinit:277 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-20 14:24:54  [ background-preinit:277 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-20 14:24:54  [ background-preinit:277 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-20 14:24:54  [ background-preinit:277 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-20 14:24:54  [ background-preinit:278 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-20 14:24:54  [ background-preinit:278 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-20 14:24:54  [ background-preinit:278 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-20 14:24:54  [ background-preinit:278 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-20 14:24:59  [ main:4955 ] - [ INFO ]  加载mybatis配置文件->>............
+2019-12-20 14:24:59  [ main:4955 ] - [ INFO ]  加载mybatis配置文件->>............
+2019-12-20 14:24:59  [ main:4957 ] - [ INFO ]  加载mybatis全局的配置文件->>............
+2019-12-20 14:24:59  [ main:4957 ] - [ INFO ]  加载mybatis全局的配置文件->>............
+2019-12-20 14:24:59  [ main:5097 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-12-20 14:24:59  [ main:5097 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-12-20 14:25:00  [ main:5543 ] - [ DEBUG ]  Creating a new SqlSession
+2019-12-20 14:25:00  [ main:5543 ] - [ DEBUG ]  Creating a new SqlSession
+2019-12-20 14:25:00  [ main:5549 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1507c3c3] was not registered for synchronization because synchronization is not active
+2019-12-20 14:25:00  [ main:5549 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1507c3c3] was not registered for synchronization because synchronization is not active
+2019-12-20 14:25:00  [ main:5869 ] - [ DEBUG ]  JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@4d6ccc97]]] will not be managed by Spring
+2019-12-20 14:25:00  [ main:5869 ] - [ DEBUG ]  JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@4d6ccc97]]] will not be managed by Spring
+2019-12-20 14:25:00  [ main:5872 ] - [ DEBUG ]  ==>  Preparing: select * from task_tb where status = ? 
+2019-12-20 14:25:00  [ main:5872 ] - [ DEBUG ]  ==>  Preparing: select * from task_tb where status = ? 
+2019-12-20 14:25:00  [ main:5891 ] - [ DEBUG ]  ==> Parameters: 1(String)
+2019-12-20 14:25:00  [ main:5891 ] - [ DEBUG ]  ==> Parameters: 1(String)
+2019-12-20 14:25:00  [ main:5971 ] - [ DEBUG ]  <==      Total: 1
+2019-12-20 14:25:00  [ main:5971 ] - [ DEBUG ]  <==      Total: 1
+2019-12-20 14:25:00  [ main:5973 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1507c3c3]
+2019-12-20 14:25:00  [ main:5973 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1507c3c3]
+2019-12-20 14:25:00  [ DefaultQuartzScheduler_Worker-1:6132 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:25:00  [ DefaultQuartzScheduler_Worker-1:6132 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:25:00  [ DefaultQuartzScheduler_Worker-1:6149 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:25:00 CST 2019
+2019-12-20 14:25:00  [ DefaultQuartzScheduler_Worker-1:6149 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:25:00 CST 2019
+2019-12-20 14:25:00  [ DefaultQuartzScheduler_Worker-1:6149 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>
+2019-12-20 14:25:00  [ DefaultQuartzScheduler_Worker-1:6149 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>
+2019-12-20 14:25:00  [ main:6164 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2019-12-20 14:25:00  [ main:6164 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2019-12-20 14:25:00  [ main:6180 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2019-12-20 14:25:00  [ main:6180 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2019-12-20 14:25:00  [ main:6245 ] - [ DEBUG ]  Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-12-20 14:25:00  [ main:6245 ] - [ DEBUG ]  Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-12-20 14:25:00  [ main:6285 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-20 14:25:00  [ main:6285 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-20 14:25:00  [ main:6285 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-20 14:25:00  [ main:6285 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-20 14:25:00  [ main:6295 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+2019-12-20 14:25:00  [ main:6295 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+2019-12-20 14:25:00  [ main:6295 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+2019-12-20 14:25:00  [ main:6295 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+2019-12-20 14:25:00  [ main:6302 ] - [ DEBUG ]  Platform: Windows
+2019-12-20 14:25:00  [ main:6302 ] - [ DEBUG ]  Platform: Windows
+2019-12-20 14:25:00  [ main:6304 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2019-12-20 14:25:00  [ main:6304 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2019-12-20 14:25:00  [ main:6304 ] - [ DEBUG ]  Java version: 8
+2019-12-20 14:25:00  [ main:6304 ] - [ DEBUG ]  Java version: 8
+2019-12-20 14:25:00  [ main:6306 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2019-12-20 14:25:00  [ main:6306 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2019-12-20 14:25:00  [ main:6307 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2019-12-20 14:25:00  [ main:6307 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2019-12-20 14:25:00  [ main:6308 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2019-12-20 14:25:00  [ main:6308 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2019-12-20 14:25:00  [ main:6309 ] - [ DEBUG ]  direct buffer constructor: available
+2019-12-20 14:25:00  [ main:6309 ] - [ DEBUG ]  direct buffer constructor: available
+2019-12-20 14:25:00  [ main:6311 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+2019-12-20 14:25:00  [ main:6311 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+2019-12-20 14:25:00  [ main:6311 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-20 14:25:00  [ main:6311 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-20 14:25:00  [ main:6311 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-20 14:25:00  [ main:6311 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-20 14:25:00  [ main:6312 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2019-12-20 14:25:00  [ main:6312 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2019-12-20 14:25:00  [ main:6312 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\CUIHANG\AppData\Local\Temp (java.io.tmpdir)
+2019-12-20 14:25:00  [ main:6312 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\CUIHANG\AppData\Local\Temp (java.io.tmpdir)
+2019-12-20 14:25:00  [ main:6313 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-20 14:25:00  [ main:6313 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-20 14:25:00  [ main:6315 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1886912512 bytes
+2019-12-20 14:25:00  [ main:6315 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1886912512 bytes
+2019-12-20 14:25:00  [ main:6316 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-20 14:25:00  [ main:6316 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-20 14:25:00  [ main:6318 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2019-12-20 14:25:00  [ main:6318 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2019-12-20 14:25:00  [ main:6318 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2019-12-20 14:25:00  [ main:6318 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2019-12-20 14:25:00  [ main:6319 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5584d9c6
+2019-12-20 14:25:00  [ main:6319 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5584d9c6
+2019-12-20 14:25:00  [ main:6323 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-20 14:25:00  [ main:6323 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-20 14:25:01  [ main:6468 ] - [ DEBUG ]  LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-12-20 14:25:01  [ main:6468 ] - [ DEBUG ]  LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-12-20 14:25:01  [ main:6637 ] - [ DEBUG ]  -Dio.netty.allocator.numHeapArenas: 16
+2019-12-20 14:25:01  [ main:6637 ] - [ DEBUG ]  -Dio.netty.allocator.numHeapArenas: 16
+2019-12-20 14:25:01  [ main:6637 ] - [ DEBUG ]  -Dio.netty.allocator.numDirectArenas: 16
+2019-12-20 14:25:01  [ main:6637 ] - [ DEBUG ]  -Dio.netty.allocator.numDirectArenas: 16
+2019-12-20 14:25:01  [ main:6637 ] - [ DEBUG ]  -Dio.netty.allocator.pageSize: 8192
+2019-12-20 14:25:01  [ main:6637 ] - [ DEBUG ]  -Dio.netty.allocator.pageSize: 8192
+2019-12-20 14:25:01  [ main:6637 ] - [ DEBUG ]  -Dio.netty.allocator.maxOrder: 11
+2019-12-20 14:25:01  [ main:6637 ] - [ DEBUG ]  -Dio.netty.allocator.maxOrder: 11
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.chunkSize: 16777216
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.chunkSize: 16777216
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.smallCacheSize: 256
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.smallCacheSize: 256
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.normalCacheSize: 64
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.normalCacheSize: 64
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-20 14:25:01  [ main:6638 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-20 14:25:01  [ main:6639 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-20 14:25:01  [ main:6639 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-20 14:25:01  [ main:6639 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-20 14:25:01  [ main:6639 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-20 14:25:01  [ main:6639 ] - [ DEBUG ]  -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-20 14:25:01  [ main:6639 ] - [ DEBUG ]  -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-20 14:25:01  [ main:6640 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-20 14:25:01  [ main:6640 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-20 14:25:01  [ main:6975 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:25:01  [ main:6975 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:25:01  [ main:6976 ] - [ DEBUG ]  Loaded expression factory via original TCCL
+2019-12-20 14:25:01  [ main:6976 ] - [ DEBUG ]  Loaded expression factory via original TCCL
+2019-12-20 14:25:01  [ main:6978 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:25:01  [ main:6978 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:25:01  [ main:6979 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-12-20 14:25:01  [ main:6979 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-12-20 14:25:01  [ main:6980 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-12-20 14:25:01  [ main:6980 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-12-20 14:25:01  [ main:6981 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-12-20 14:25:01  [ main:6981 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-12-20 14:25:01  [ main:6982 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-12-20 14:25:01  [ main:6982 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-12-20 14:25:01  [ main:6982 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+2019-12-20 14:25:01  [ main:6982 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+2019-12-20 14:25:01  [ main:6983 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+2019-12-20 14:25:01  [ main:6983 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+2019-12-20 14:25:01  [ main:6983 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-12-20 14:25:01  [ main:6983 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-12-20 14:25:01  [ main:6983 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+2019-12-20 14:25:01  [ main:6983 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+2019-12-20 14:25:01  [ main:6988 ] - [ DEBUG ]  HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-20 14:25:01  [ main:6988 ] - [ DEBUG ]  HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-20 14:25:01  [ main:6989 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-20 14:25:01  [ main:6989 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-20 14:25:01  [ main:6989 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-20 14:25:01  [ main:6989 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-20 14:25:01  [ main:6989 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-20 14:25:01  [ main:6989 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-20 14:25:01  [ main:6989 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-20 14:25:01  [ main:6989 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-20 14:25:02  [ main:7574 ] - [ DEBUG ]  Initiate shutdown (100, 100, MILLISECONDS)
+2019-12-20 14:25:02  [ main:7574 ] - [ DEBUG ]  Initiate shutdown (100, 100, MILLISECONDS)
+2019-12-20 14:25:02  [ main:7591 ] - [ DEBUG ]  Initiate shutdown (0, 2, SECONDS)
+2019-12-20 14:25:02  [ main:7591 ] - [ DEBUG ]  Initiate shutdown (0, 2, SECONDS)
+2019-12-20 14:25:02  [ main:7593 ] - [ DEBUG ]  Initiate shutdown (0, 2, SECONDS)
+2019-12-20 14:25:02  [ main:7593 ] - [ DEBUG ]  Initiate shutdown (0, 2, SECONDS)
+2019-12-20 14:26:00  [ DefaultQuartzScheduler_Worker-2:65432 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:26:00  [ DefaultQuartzScheduler_Worker-2:65432 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:26:00  [ DefaultQuartzScheduler_Worker-2:65444 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:26:00 CST 2019
+2019-12-20 14:26:00  [ DefaultQuartzScheduler_Worker-2:65444 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:26:00 CST 2019
+2019-12-20 14:26:00  [ DefaultQuartzScheduler_Worker-2:65446 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>
+2019-12-20 14:26:00  [ DefaultQuartzScheduler_Worker-2:65446 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>
+2019-12-20 14:27:00  [ DefaultQuartzScheduler_Worker-3:125429 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:27:00  [ DefaultQuartzScheduler_Worker-3:125429 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:27:00  [ DefaultQuartzScheduler_Worker-3:125430 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:27:00 CST 2019
+2019-12-20 14:27:00  [ DefaultQuartzScheduler_Worker-3:125430 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:27:00 CST 2019
+2019-12-20 14:27:00  [ DefaultQuartzScheduler_Worker-3:125431 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>
+2019-12-20 14:27:00  [ DefaultQuartzScheduler_Worker-3:125431 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>
+2019-12-20 14:28:00  [ DefaultQuartzScheduler_Worker-4:185432 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:28:00  [ DefaultQuartzScheduler_Worker-4:185432 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:28:00  [ DefaultQuartzScheduler_Worker-4:185434 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:28:00 CST 2019
+2019-12-20 14:28:00  [ DefaultQuartzScheduler_Worker-4:185434 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:28:00 CST 2019
+2019-12-20 14:28:00  [ DefaultQuartzScheduler_Worker-4:185434 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>
+2019-12-20 14:28:00  [ DefaultQuartzScheduler_Worker-4:185434 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>
+2019-12-20 14:41:44  [ background-preinit:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-12-20 14:41:44  [ background-preinit:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2019-12-20 14:41:44  [ background-preinit:3 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2019-12-20 14:41:44  [ background-preinit:3 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.18.Final
+2019-12-20 14:41:44  [ background-preinit:14 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:41:44  [ background-preinit:14 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:41:44  [ background-preinit:21 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-12-20 14:41:44  [ background-preinit:21 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-12-20 14:41:44  [ background-preinit:23 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+2019-12-20 14:41:44  [ background-preinit:23 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+2019-12-20 14:41:44  [ background-preinit:24 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-12-20 14:41:44  [ background-preinit:24 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-12-20 14:41:44  [ background-preinit:25 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+2019-12-20 14:41:44  [ background-preinit:25 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+2019-12-20 14:41:44  [ background-preinit:280 ] - [ DEBUG ]  Loaded expression factory via original TCCL
+2019-12-20 14:41:44  [ background-preinit:280 ] - [ DEBUG ]  Loaded expression factory via original TCCL
+2019-12-20 14:41:44  [ background-preinit:290 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-20 14:41:44  [ background-preinit:290 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-20 14:41:44  [ background-preinit:302 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-20 14:41:44  [ background-preinit:302 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-20 14:41:44  [ background-preinit:303 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-20 14:41:44  [ background-preinit:303 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-20 14:41:44  [ background-preinit:303 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-20 14:41:44  [ background-preinit:303 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-20 14:41:44  [ background-preinit:303 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-20 14:41:44  [ background-preinit:303 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-20 14:41:46  [ main:1813 ] - [ INFO ]  加载mybatis配置文件->>............
+2019-12-20 14:41:46  [ main:1813 ] - [ INFO ]  加载mybatis配置文件->>............
+2019-12-20 14:41:46  [ main:1814 ] - [ INFO ]  加载mybatis全局的配置文件->>............
+2019-12-20 14:41:46  [ main:1814 ] - [ INFO ]  加载mybatis全局的配置文件->>............
+2019-12-20 14:41:46  [ main:1982 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-12-20 14:41:46  [ main:1982 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-12-20 14:41:46  [ main:2152 ] - [ DEBUG ]  Creating a new SqlSession
+2019-12-20 14:41:46  [ main:2152 ] - [ DEBUG ]  Creating a new SqlSession
+2019-12-20 14:41:46  [ main:2157 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@304a3655] was not registered for synchronization because synchronization is not active
+2019-12-20 14:41:46  [ main:2157 ] - [ DEBUG ]  SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@304a3655] was not registered for synchronization because synchronization is not active
+2019-12-20 14:41:46  [ main:2508 ] - [ DEBUG ]  JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@7fab4be7]]] will not be managed by Spring
+2019-12-20 14:41:46  [ main:2508 ] - [ DEBUG ]  JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@7fab4be7]]] will not be managed by Spring
+2019-12-20 14:41:47  [ main:2515 ] - [ DEBUG ]  ==>  Preparing: select * from task_tb where status = ? 
+2019-12-20 14:41:47  [ main:2515 ] - [ DEBUG ]  ==>  Preparing: select * from task_tb where status = ? 
+2019-12-20 14:41:47  [ main:2546 ] - [ DEBUG ]  ==> Parameters: 1(String)
+2019-12-20 14:41:47  [ main:2546 ] - [ DEBUG ]  ==> Parameters: 1(String)
+2019-12-20 14:41:47  [ main:2560 ] - [ DEBUG ]  <==      Total: 1
+2019-12-20 14:41:47  [ main:2560 ] - [ DEBUG ]  <==      Total: 1
+2019-12-20 14:41:47  [ main:2562 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@304a3655]
+2019-12-20 14:41:47  [ main:2562 ] - [ DEBUG ]  Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@304a3655]
+2019-12-20 14:41:47  [ main:2629 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2019-12-20 14:41:47  [ main:2629 ] - [ DEBUG ]  Using Log4J as the default logging framework
+2019-12-20 14:41:47  [ main:2632 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2019-12-20 14:41:47  [ main:2632 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+2019-12-20 14:41:47  [ main:2639 ] - [ DEBUG ]  Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-12-20 14:41:47  [ main:2639 ] - [ DEBUG ]  Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2019-12-20 14:41:47  [ main:2655 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-20 14:41:47  [ main:2655 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2019-12-20 14:41:47  [ main:2655 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-20 14:41:47  [ main:2655 ] - [ DEBUG ]  -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2019-12-20 14:41:47  [ main:2660 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+2019-12-20 14:41:47  [ main:2660 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+2019-12-20 14:41:47  [ main:2660 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+2019-12-20 14:41:47  [ main:2660 ] - [ DEBUG ]  -Dio.netty.leakDetection.targetRecords: 4
+2019-12-20 14:41:47  [ main:2664 ] - [ DEBUG ]  Platform: Windows
+2019-12-20 14:41:47  [ main:2664 ] - [ DEBUG ]  Platform: Windows
+2019-12-20 14:41:47  [ main:2666 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2019-12-20 14:41:47  [ main:2666 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+2019-12-20 14:41:47  [ main:2666 ] - [ DEBUG ]  Java version: 8
+2019-12-20 14:41:47  [ main:2666 ] - [ DEBUG ]  Java version: 8
+2019-12-20 14:41:47  [ main:2667 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2019-12-20 14:41:47  [ main:2667 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+2019-12-20 14:41:47  [ main:2668 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2019-12-20 14:41:47  [ main:2668 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+2019-12-20 14:41:47  [ main:2668 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2019-12-20 14:41:47  [ main:2668 ] - [ DEBUG ]  java.nio.Buffer.address: available
+2019-12-20 14:41:47  [ main:2669 ] - [ DEBUG ]  direct buffer constructor: available
+2019-12-20 14:41:47  [ main:2669 ] - [ DEBUG ]  direct buffer constructor: available
+2019-12-20 14:41:47  [ main:2670 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+2019-12-20 14:41:47  [ main:2670 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+2019-12-20 14:41:47  [ main:2670 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-20 14:41:47  [ main:2670 ] - [ DEBUG ]  jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2019-12-20 14:41:47  [ main:2670 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-20 14:41:47  [ main:2670 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+2019-12-20 14:41:47  [ main:2670 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2019-12-20 14:41:47  [ main:2670 ] - [ DEBUG ]  sun.misc.Unsafe: available
+2019-12-20 14:41:47  [ main:2671 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\CUIHANG\AppData\Local\Temp (java.io.tmpdir)
+2019-12-20 14:41:47  [ main:2671 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\CUIHANG\AppData\Local\Temp (java.io.tmpdir)
+2019-12-20 14:41:47  [ main:2671 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-20 14:41:47  [ main:2671 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2019-12-20 14:41:47  [ main:2673 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1886912512 bytes
+2019-12-20 14:41:47  [ main:2673 ] - [ DEBUG ]  -Dio.netty.maxDirectMemory: 1886912512 bytes
+2019-12-20 14:41:47  [ main:2673 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-20 14:41:47  [ main:2673 ] - [ DEBUG ]  -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2019-12-20 14:41:47  [ main:2674 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2019-12-20 14:41:47  [ main:2674 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+2019-12-20 14:41:47  [ main:2675 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2019-12-20 14:41:47  [ main:2675 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+2019-12-20 14:41:47  [ main:2675 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6cf31447
+2019-12-20 14:41:47  [ main:2675 ] - [ DEBUG ]  Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6cf31447
+2019-12-20 14:41:47  [ main:2677 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-20 14:41:47  [ main:2677 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+2019-12-20 14:41:47  [ main:2707 ] - [ DEBUG ]  LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-12-20 14:41:47  [ main:2707 ] - [ DEBUG ]  LatencyUtils/HdrUtils are not available, metrics are disabled
+2019-12-20 14:41:47  [ main:2759 ] - [ DEBUG ]  -Dio.netty.allocator.numHeapArenas: 16
+2019-12-20 14:41:47  [ main:2759 ] - [ DEBUG ]  -Dio.netty.allocator.numHeapArenas: 16
+2019-12-20 14:41:47  [ main:2760 ] - [ DEBUG ]  -Dio.netty.allocator.numDirectArenas: 16
+2019-12-20 14:41:47  [ main:2760 ] - [ DEBUG ]  -Dio.netty.allocator.numDirectArenas: 16
+2019-12-20 14:41:47  [ main:2760 ] - [ DEBUG ]  -Dio.netty.allocator.pageSize: 8192
+2019-12-20 14:41:47  [ main:2760 ] - [ DEBUG ]  -Dio.netty.allocator.pageSize: 8192
+2019-12-20 14:41:47  [ main:2760 ] - [ DEBUG ]  -Dio.netty.allocator.maxOrder: 11
+2019-12-20 14:41:47  [ main:2760 ] - [ DEBUG ]  -Dio.netty.allocator.maxOrder: 11
+2019-12-20 14:41:47  [ main:2760 ] - [ DEBUG ]  -Dio.netty.allocator.chunkSize: 16777216
+2019-12-20 14:41:47  [ main:2760 ] - [ DEBUG ]  -Dio.netty.allocator.chunkSize: 16777216
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.tinyCacheSize: 512
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.smallCacheSize: 256
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.smallCacheSize: 256
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.normalCacheSize: 64
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.normalCacheSize: 64
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimInterval: 8192
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-20 14:41:47  [ main:2761 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2019-12-20 14:41:47  [ main:2762 ] - [ DEBUG ]  -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-20 14:41:47  [ main:2762 ] - [ DEBUG ]  -Dio.netty.allocator.useCacheForAllThreads: true
+2019-12-20 14:41:47  [ main:2762 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-20 14:41:47  [ main:2762 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2019-12-20 14:41:47  [ main:2866 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:41:47  [ main:2866 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:41:47  [ main:2868 ] - [ DEBUG ]  Loaded expression factory via original TCCL
+2019-12-20 14:41:47  [ main:2868 ] - [ DEBUG ]  Loaded expression factory via original TCCL
+2019-12-20 14:41:47  [ main:2869 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:41:47  [ main:2869 ] - [ DEBUG ]  Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-12-20 14:41:47  [ main:2870 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-12-20 14:41:47  [ main:2870 ] - [ DEBUG ]  Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-12-20 14:41:47  [ main:2871 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-12-20 14:41:47  [ main:2871 ] - [ DEBUG ]  Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-12-20 14:41:47  [ main:2871 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-12-20 14:41:47  [ main:2871 ] - [ DEBUG ]  Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via user class loader
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via TCCL
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+2019-12-20 14:41:47  [ main:2873 ] - [ DEBUG ]  No META-INF/validation.xml found. Using annotation based configuration only.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-20 14:41:47  [ main:2878 ] - [ DEBUG ]  HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-12-20 14:41:47  [ main:3201 ] - [ DEBUG ]  Initiate shutdown (100, 100, MILLISECONDS)
+2019-12-20 14:41:47  [ main:3201 ] - [ DEBUG ]  Initiate shutdown (100, 100, MILLISECONDS)
+2019-12-20 14:41:47  [ main:3208 ] - [ DEBUG ]  Initiate shutdown (0, 2, SECONDS)
+2019-12-20 14:41:47  [ main:3208 ] - [ DEBUG ]  Initiate shutdown (0, 2, SECONDS)
+2019-12-20 14:41:47  [ main:3208 ] - [ DEBUG ]  Initiate shutdown (0, 2, SECONDS)
+2019-12-20 14:41:47  [ main:3208 ] - [ DEBUG ]  Initiate shutdown (0, 2, SECONDS)
+2019-12-20 14:42:00  [ DefaultQuartzScheduler_Worker-1:15534 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:42:00  [ DefaultQuartzScheduler_Worker-1:15534 ] - [ INFO ]  >>>>>>>>>>>Job即将执行的通知>>>>>>>>>>>>>>>>>>
+2019-12-20 14:42:00  [ DefaultQuartzScheduler_Worker-1:15559 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:42:00 CST 2019
+2019-12-20 14:42:00  [ DefaultQuartzScheduler_Worker-1:15559 ] - [ INFO ]  任务组：group1的任务：test执行了定时任务：....执行时间：Fri Dec 20 14:42:00 CST 2019
+2019-12-20 14:42:00  [ DefaultQuartzScheduler_Worker-1:15560 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>
+2019-12-20 14:42:00  [ DefaultQuartzScheduler_Worker-1:15560 ] - [ INFO ]  >>>>>>>>>>>Job完成执行时的通知>>>>>>>>>>>>>>>>>

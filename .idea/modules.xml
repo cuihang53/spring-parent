@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-common/spring-common.iml" filepath="$PROJECT_DIR$/spring-common/spring-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-entity/spring-entity.iml" filepath="$PROJECT_DIR$/spring-entity/spring-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mapper/spring-mapper.iml" filepath="$PROJECT_DIR$/spring-mapper/spring-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-parent.iml" filepath="$PROJECT_DIR$/.idea/spring-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-quartz/spring-quartz.iml" filepath="$PROJECT_DIR$/spring-quartz/spring-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-service/spring-service.iml" filepath="$PROJECT_DIR$/spring-service/spring-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web/spring-web.iml" filepath="$PROJECT_DIR$/spring-web/spring-web.iml" />
+    </modules>
+  </component>
+</project>
