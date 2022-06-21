@@ -26,7 +26,7 @@
     <!-- java jdk 版本-->
     <properties>
         <java.version>1.8</java.version>
-        <mysql-connector-java-version>5.1.42</mysql-connector-java-version>
+        <mysql-connector-java-version>8.0.28</mysql-connector-java-version>
         <project-componet-version>0.0.1-SNAPSHOT</project-componet-version>
         <project-componet-web-version>0.0.1-SNAPSHOT</project-componet-web-version>
         <project-componet-service-version>0.0.1-SNAPSHOT</project-componet-service-version>
